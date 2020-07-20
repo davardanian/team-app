@@ -47,6 +47,7 @@ const ExperiencePicker = (props) => {
 };
 
 const DatePicker = (props) => {
+  // Couldn`t get a proper one for birthday pick :(
   const [currentDate, setNewDate] = useState(null);
   const onChange = (event, data) => {
     setNewDate(data.value);
