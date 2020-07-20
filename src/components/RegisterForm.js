@@ -83,7 +83,6 @@ class RegisterForm extends Component {
       reactExperience: 5,
       companyId: '',
     },
-    fieldErrors: {},
   };
 
   birthDateSet = (date) => {
