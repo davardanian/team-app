@@ -1,0 +1,11 @@
+body {
+  background-color: #1b1c1d;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+}
+
+body > div,
+body > div > div,
+body > div > div > .ui.grid {
+  height: 100%;
+}

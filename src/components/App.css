@@ -1,0 +1,8 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+}
+
+.ui.inverted.pointing.menu .active.item:after {
+  background-color: white !important;
+}
