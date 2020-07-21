@@ -27,7 +27,7 @@ const ExperiencePicker = (props) => {
   const [value, setValue] = useState(props.start);
   const label = props.label;
   const settings = {
-    start: 2,
+    start: props.start,
     min: 0,
     max: 30,
     step: 1,
